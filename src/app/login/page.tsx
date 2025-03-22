@@ -104,7 +104,7 @@ export default function LoginPage() {
     const user = localStorage.getItem("user");
     
     if (user) {
-      router.push("/auth/patients");
+      router.push("/auth/registerusers");
     }
   }, [router]);
 
