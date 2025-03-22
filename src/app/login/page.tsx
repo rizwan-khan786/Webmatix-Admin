@@ -123,7 +123,7 @@ export default function LoginPage() {
       if (response.ok) {
         localStorage.setItem("user", JSON.stringify(data.user)); // Save user details
         localStorage.setItem("token", data.token); // Save token
-        router.push("/auth/patients");
+        router.push("/auth/registerusers");
       } else {
         setError(data.message || "Login failed");
       }
