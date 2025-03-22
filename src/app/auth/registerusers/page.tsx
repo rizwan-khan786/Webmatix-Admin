@@ -263,6 +263,7 @@ const FetchUsersPage = () => {
   const [totalUsers, setTotalUsers] = useState(0);
   const itemsPerPage = 5;
 
+  
   useEffect(() => {
     const fetchUsers = async () => {
       setLoading(true);
@@ -285,7 +286,7 @@ const FetchUsersPage = () => {
     fetchUsers();
   }, [page]);
 
-  const handlePageChange = (newPage) => setPage(newPage);
+  const handlePageChange = (newPage: number) => setPage(newPage);
   const totalPages = Math.ceil(totalUsers / itemsPerPage);
 
   return (
