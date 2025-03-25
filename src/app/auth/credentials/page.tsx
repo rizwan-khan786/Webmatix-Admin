@@ -23,7 +23,7 @@
 //   const fetchInstanceData = async () => {
 //     try {
 //       setLoading(true);
-//       const response = await fetch("https://call2connectbackend.onrender.com/api/instance", {
+//       const response = await fetch("https://call2connectapiv2.codifyinstitute.com/api/instance", {
 //         headers: {
 //           Authorization: `Bearer ${token}`,
 //         },
@@ -49,7 +49,7 @@
 
 //   const handleAddInstance = async () => {
 //     try {
-//       const response = await fetch("https://call2connectbackend.onrender.com/api/instance", {
+//       const response = await fetch("https://call2connectapiv2.codifyinstitute.com/api/instance", {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -85,7 +85,7 @@
 
 //   // const handleAddInstance = async () => {
 //   //   try {
-//   //     const response = await fetch("https://call2connectbackend.onrender.com/api/instance", {
+//   //     const response = await fetch("https://call2connectapiv2.codifyinstitute.com/api/instance", {
 //   //       method: "POST",
 //   //       headers: {
 //   //         "Content-Type": "application/json",
@@ -181,7 +181,7 @@ const HospitalMap = () => {
   const fetchInstanceData = async () => {
     try {
       setLoading(true);
-      const response = await fetch("https://call2connectbackend.onrender.com/api/instance", {
+      const response = await fetch("https://call2connectapiv2.codifyinstitute.com/api/instance", {
         headers: {
           Authorization: `Bearer ${token}`,
         },
@@ -207,7 +207,7 @@ const HospitalMap = () => {
 
   const handleAddInstance = async () => {
     try {
-      const response = await fetch("https://call2connectbackend.onrender.com/api/instance", {
+      const response = await fetch("https://call2connectapiv2.codifyinstitute.com/api/instance", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

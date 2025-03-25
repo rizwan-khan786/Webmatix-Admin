@@ -30,7 +30,7 @@
 //     const fetchUsers = async () => {
 //       setLoading(true);
 //       try {
-//         const response = await axios.get('https://call2connectbackend.onrender.com/api/auth/users', {
+//         const response = await axios.get('https://call2connectapiv2.codifyinstitute.com/api/auth/users', {
 //           params: {
 //             page: page,
 //             limit: itemsPerPage,
@@ -268,7 +268,7 @@ const FetchUsersPage = () => {
     const fetchUsers = async () => {
       setLoading(true);
       try {
-        const response = await axios.get('https://call2connectbackend.onrender.com/api/auth/users', {
+        const response = await axios.get('https://call2connectapiv2.codifyinstitute.com/api/auth/users', {
           params: { page, limit: itemsPerPage },
         });
         

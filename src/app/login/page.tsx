@@ -22,7 +22,7 @@
 
 //     try {
 //       // const response = await fetch("https://vvcmhospitals.codifyinstitute.org/api/users/login", {
-//         const response = await fetch("https://call2connectbackend.onrender.com/api/auth/login", {
+//         const response = await fetch("https://call2connectapiv2.codifyinstitute.com/api/auth/login", {
 
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
@@ -113,7 +113,7 @@ export default function LoginPage() {
     setError("");
 
     try {
-      const response = await fetch("https://call2connectbackend.onrender.com/api/auth/login", {
+      const response = await fetch("https://call2connectapiv2.codifyinstitute.com/api/auth/login", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ email, password })
